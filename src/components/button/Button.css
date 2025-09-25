@@ -1,0 +1,17 @@
+.icon{
+    width: 16px;
+    height: 16px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.button{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(228, 230, 235, 1.0);
+}
