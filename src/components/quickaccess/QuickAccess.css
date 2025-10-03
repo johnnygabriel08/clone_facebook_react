@@ -1,0 +1,10 @@
+/* Container que ocupa toda a largura e espalha os itens ponta-a-ponta */
+.quick-access {
+  display: flex;
+  justify-content: space-between; /* <- faz ir de ponta a ponta */
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0; /* se quiser afastar um pouco das bordas, aumente aqui */
+  gap: 8px; /* opcional: mantém um pequeno espaço entre os itens internos */
+}

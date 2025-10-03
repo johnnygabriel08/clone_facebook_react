@@ -1,7 +1,8 @@
-export default function QuickAccess({children}){
-    return<>
-    <div className="flex flex_row">
-        {children}
+import './QuickAccess.css'
+export default function QuickAccess({ children }) {
+  return (
+    <div className="quick-access">
+      {children}
     </div>
-    </>
+  )
 }

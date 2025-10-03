@@ -16,13 +16,13 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Wrapper>
       <Header/>
-      <QuickAccess/>
+      <QuickAccess>
         <QuickAccessItem icone= {Homelander}/>
         <QuickAccessItem icone= {Notificacao}/>
         <QuickAccessItem icone={Store}/>
         <QuickAccessItem icone={Users}/>
         <QuickAccessItem icone={Video}/>
-
+      </QuickAccess>
 
       <p>Quick Acess - [home, amigos, mensagens, reels, notificacao, marktplace]</p>
       <p>Area de postar - inclui foto de perfil, input para escrever a postagem icone/btn para postar foto</p>
